@@ -26,6 +26,9 @@
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -35,7 +38,7 @@
               <a class="nav-link active" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="form.html">Feedback & Services</a>
+              <a class="nav-link" href="form.html">Feedback</a>
             </li>
           </ul>
         </div>
@@ -104,12 +107,47 @@
           </div>
         </div>
       </div>
+
+      <!-- AWS Core Services Table -->
+      <h2 class="text-center mt-5">AWS Core Services Table</h2>
+      <table class="table table-striped mt-3">
+        <thead>
+          <tr>
+            <th>Service</th>
+            <th>Category</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>EC2</td>
+            <td>Compute</td>
+            <td>Scalable virtual servers in the cloud.</td>
+          </tr>
+          <tr>
+            <td>S3</td>
+            <td>Storage</td>
+            <td>Object storage service for scalable data storage.</td>
+          </tr>
+          <tr>
+            <td>RDS</td>
+            <td>Database</td>
+            <td>Managed relational database service.</td>
+          </tr>
+          <tr>
+            <td>CloudFront</td>
+            <td>Networking</td>
+            <td>Content delivery network service.</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
 
     <footer class="bg-dark text-white text-center py-3 mt-4">
       &copy; 2024 AWS Learning Guide
     </footer>
 
+    <!-- JavaScript -->
     <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
   </body>
 </html>
